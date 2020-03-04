@@ -6,7 +6,7 @@ Heap overflow in decompress.c
 ------
 A SIGSEGV signal is raised in the function Decompress() of decompress.c in the 'hdf5' package 1.13.0. In function Decompress() at the time of assignment operation left side interger pointer OutCode size is much small then right side interger pointer Suffix.
 
-Version: gif2h5: Version 1.13.0
+Version:Version 1.13.0
 
 Command: ./gif2h5 $POC /dev/null
 
